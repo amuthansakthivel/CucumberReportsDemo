@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="1.199">
+<testcase classname="Login Test Cases" name="Title of your scenario" time="0.349">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user enters valid "https://google.com"................................undefined
+And valid "yourusername" and "yourpassword".................................skipped
+When user clicks on login button............................................skipped
+Then the url of the page should be <expectedurl>............................skipped
+]]></failure>
+</testcase>
+<testcase classname="Login Test Cases" name="Title of your scenario 2" time="0.021">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user enters valid "https://google.co.in"..............................undefined
+And valid "username1" and "password1".......................................skipped
+When user clicks on login button............................................skipped
+Then the url of the page should be <expectedurl>............................skipped
+]]></failure>
+</testcase>
+<testcase classname="Login Test Cases" name="Title of your scenario1" time="0.035">
+<failure message="expected:&lt;1&gt; but was:&lt;2&gt;" type="junit.framework.AssertionFailedError"><![CDATA[Given user enters valid url.................................................passed
+And valid username and password.............................................passed
+When user clicks on login button............................................passed
+Then user should be successfully logged in..................................failed
+And title of the login page should be "abcdef"..............................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError: expected:<1> but was:<2>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:234)
+	at junit.framework.Assert.assertEquals(Assert.java:241)
+	at com.steps.LoginSteps.user_should_be_successfully_logged_in(LoginSteps.java:38)
+	at ✽.user should be successfully logged in(file:///C:/Users/asakthiv/eclipse-workspace/CucumberExtentReportPluginDemo/src/test/resources/Login.feature:39)
+]]></failure>
+</testcase>
+<testcase classname="Login Test Cases" name="Title of your scenario2" time="0.018">
+<failure message="expected:&lt;1&gt; but was:&lt;2&gt;" type="junit.framework.AssertionFailedError"><![CDATA[Given user enters valid url.................................................passed
+And valid username and password.............................................passed
+When user clicks on login button............................................passed
+Then user should be successfully logged in..................................failed
+And title of the login page should be title.................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError: expected:<1> but was:<2>
+	at junit.framework.Assert.fail(Assert.java:57)
+	at junit.framework.Assert.failNotEquals(Assert.java:329)
+	at junit.framework.Assert.assertEquals(Assert.java:78)
+	at junit.framework.Assert.assertEquals(Assert.java:234)
+	at junit.framework.Assert.assertEquals(Assert.java:241)
+	at com.steps.LoginSteps.user_should_be_successfully_logged_in(LoginSteps.java:38)
+	at ✽.user should be successfully logged in(file:///C:/Users/asakthiv/eclipse-workspace/CucumberExtentReportPluginDemo/src/test/resources/Login.feature:47)
+]]></failure>
+</testcase>
+</testsuite>

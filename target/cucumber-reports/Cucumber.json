@@ -1,0 +1,417 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-04T02:49:33.798Z",
+        "before": [
+          {
+            "output": [
+              "BEFORE HI"
+            ],
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login-test-cases;title-of-your-scenario;;2",
+        "after": [
+          {
+            "output": [
+              "AFTER HI"
+            ],
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user enters valid \"https://google.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "valid \"yourusername\" and \"yourpassword\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.steps.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the url of the page should be \u003cexpectedurl\u003e",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T02:49:34.192Z",
+        "before": [
+          {
+            "output": [
+              "BEFORE HI"
+            ],
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "login-test-cases;title-of-your-scenario;;3",
+        "after": [
+          {
+            "output": [
+              "AFTER HI"
+            ],
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user enters valid \"https://google.co.in\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "valid \"username1\" and \"password1\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.steps.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "the url of the page should be \u003cexpectedurl\u003e",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T02:49:34.251Z",
+        "before": [
+          {
+            "output": [
+              "BEFORE HI"
+            ],
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Title of your scenario1",
+        "description": "",
+        "id": "login-test-cases;title-of-your-scenario1",
+        "after": [
+          {
+            "output": [
+              "AFTER HI"
+            ],
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enters valid url",
+            "match": {
+              "location": "com.steps.LoginSteps.user_enters_valid_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "valid username and password",
+            "match": {
+              "location": "com.steps.LoginSteps.valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.steps.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003c1\u003e but was:\u003c2\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:234)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:241)\r\n\tat com.steps.LoginSteps.user_should_be_successfully_logged_in(LoginSteps.java:38)\r\n\tat ✽.user should be successfully logged in(file:///C:/Users/asakthiv/eclipse-workspace/CucumberExtentReportPluginDemo/src/test/resources/Login.feature:39)\r\n",
+              "duration": 6000000,
+              "status": "failed"
+            },
+            "line": 39,
+            "name": "user should be successfully logged in",
+            "match": {
+              "location": "com.steps.LoginSteps.user_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "title of the login page should be \"abcdef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.steps.LoginSteps.title_of_the_login_page_should_be(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-04T02:49:34.304Z",
+        "before": [
+          {
+            "output": [
+              "BEFORE HI"
+            ],
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.before(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Title of your scenario2",
+        "description": "",
+        "id": "login-test-cases;title-of-your-scenario2",
+        "after": [
+          {
+            "output": [
+              "AFTER HI"
+            ],
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.steps.CommonSteps.after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user enters valid url",
+            "match": {
+              "location": "com.steps.LoginSteps.user_enters_valid_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "valid username and password",
+            "match": {
+              "location": "com.steps.LoginSteps.valid_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "com.steps.LoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError: expected:\u003c1\u003e but was:\u003c2\u003e\r\n\tat junit.framework.Assert.fail(Assert.java:57)\r\n\tat junit.framework.Assert.failNotEquals(Assert.java:329)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:78)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:234)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:241)\r\n\tat com.steps.LoginSteps.user_should_be_successfully_logged_in(LoginSteps.java:38)\r\n\tat ✽.user should be successfully logged in(file:///C:/Users/asakthiv/eclipse-workspace/CucumberExtentReportPluginDemo/src/test/resources/Login.feature:47)\r\n",
+              "status": "failed"
+            },
+            "line": 47,
+            "name": "user should be successfully logged in",
+            "match": {
+              "location": "com.steps.LoginSteps.user_should_be_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "title of the login page should be title",
+            "match": {
+              "location": "com.steps.LoginSteps.title_of_the_login_page_should_be()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test Cases",
+    "description": "\tThis feature file contains all the test cases related to login scenario",
+    "id": "login-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
